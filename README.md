@@ -1,4 +1,4 @@
-# vzp-i3-conifgs
+# vzp-i3-configs
 Contains my i3 configs and setup scripts
 
 So, working on updating to 4.10.2 on Kali and on straight debian so thought I would put my 
