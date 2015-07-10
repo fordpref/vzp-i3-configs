@@ -1,0 +1,24 @@
+Steps:
+1.  clone the repo
+  git clone git://code.i3wm.org/i3
+
+2.  install dependencies:
+  apt-get install pkg-config libxcb-util0-dev libxcb-keysyms1-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev
+
+
+
+3.  build it:
+  make && make install
+  
+  if this fails:  You may need more updated libraries.  You'll need to update /etc/apt/sources.list by adding the 
+  distribution beta/unstable sources, apt-get update, then run the apt-get install in step 2 again.  When done, remove the 
+  unstable source, apt-get update.  run make && make install 
+
+4.  install supplemental applications:
+  apt-get install i3lock i3status scrot conky-all nm-applet scrot
+  
+5.  copy config files for i3, screenshot, and others.
+
+6.  Reboot, choose i3 as the session, log in.
+  
+  
