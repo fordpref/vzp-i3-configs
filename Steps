@@ -15,7 +15,7 @@ Steps:
   unstable source, apt-get update.  run make && make install 
 
 4.  install supplemental applications:
-  apt-get install i3lock i3status scrot conky-all nm-applet scrot
+  apt-get install i3lock i3status scrot conky-all scrot
   
 5.  copy config files for i3, screenshot, and others.
 
