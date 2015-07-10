@@ -15,10 +15,14 @@ popup_during_fullscreen ignore
 
 #Set Background
 #exec --no-startup-id sh ~/.fehbg
+#comment out gnome-settings-daemon if issues with mouse cursor/pointer
 exec --no-startup-id gnome-settings-daemon
 exec --no-startup-id ~/.start-conky
 exec --no-startup-id nm-applet
 exec --no-startup-id gsettings set org.gnome.desktop.background show-desktop-icons false
+exec --no-startup-id gsettings set org.gnome.settings-daemon.plugins.cursor active false
+# uncomment below if problems with resolution.  Run xrandr -q to find connected monitor and repace Virtual1 with it
+#exec --no-startup-id xrandr --output Virtual1 --mode 1680x1050
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below. ISO 10646 = Unicode
