@@ -1,0 +1,3 @@
+#!/bin/bash
+# goes in /root or /home/<user>/
+i3lock -d -c 000000
