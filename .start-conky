@@ -1,0 +1,4 @@
+#!/bin/sh
+# Goes in /root or /home/<user>/
+sleep 20
+conky -d -c ~/.conkyrc
