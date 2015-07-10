@@ -6,4 +6,4 @@ configurations, steps, dependency stuff here.
 
 Used to have to temporarily add jessie sources to /etc/apt/sources.list but no longer thanks to recent updates by Debian.
 
-Hopefully this is usefule to others, lessons any pain, etc.
+Hopefully this is useful to others, lessons any pain, etc.
