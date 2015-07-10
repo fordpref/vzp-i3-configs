@@ -1,4 +1,3 @@
-root@ghost:~# cat i3-install.sh
 #!/bin/bash
 
 cd
@@ -11,7 +10,8 @@ sudo apt-get -y install pkg-config libx11-xcb-dev libxcb-keysyms1-dev libpango1.
 
 cd i3
 
-sudo make && make install
+sudo make 
+sudo make install
 
 sudo apt-get -y install i3lock i3status scrot conky-all nm-applet scrot
 
@@ -26,11 +26,11 @@ cp config ~/.i3/
 
 #copy to root too in case not run as root
 
-cp .conkyrc /root/
-cp .i3-lock /root/
-cp .start-conky /root/
-cp scrot.sh /root/
-mkdir /root/.i3
-cp config ~/.i3/
+sudo cp .conkyrc /root/
+sudo cp .i3-lock /root/
+sudo cp .start-conky /root/
+sudo cp scrot.sh /root/
+sudo mkdir /root/.i3
+sudo cp config ~/.i3/
 cd ..
 echo **DONE**  Reboot, choose i3, login
