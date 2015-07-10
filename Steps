@@ -3,8 +3,8 @@ Steps:
   git clone git://code.i3wm.org/i3
 
 2.  install dependencies:
-  apt-get install pkg-config libxcb-util0-dev libxcb-keysyms1-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev
 
+  apt-get install pkg-config libx11-xcb-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-xkb-dev libxcb-cursor-dev libxkbcommon-dev libxkbcommon-x11-dev libxcb-xinerama0-dev
 
 
 3.  build it:
